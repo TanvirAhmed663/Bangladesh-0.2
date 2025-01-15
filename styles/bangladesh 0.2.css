@@ -1,0 +1,252 @@
+
+body{
+    background-color: #F5F5F5;
+    
+}
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: auto;
+    margin: 0%;
+}
+.btn-primary{
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 800px;
+    text-align: center;
+    color: #006A50;
+    border-color: #006A50;
+
+}
+.nav ul li {
+    list-style: none;
+   
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+    width: 222px;
+   
+}
+.banner{
+    width: 1360px;
+    height: 560px;
+    position: 119px 20px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: 0 auto;
+    padding: 100px 80px;
+    gap: 64px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    position : 100px ;
+    height: 326px;
+    margin: 219px 0 0  ;
+    margin-top: 117px;
+    background-color: #C6E4D6;
+    background-color: ;
+}
+.banner-p{
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+}
+.banner-h1{
+    font-size: 56px;
+    width: 622px;
+     background-color: #C6E4D6;
+}
+.banner-btn{
+    height: 56px;
+    width: 270px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+}
+.banner-photo{
+    background-color: #C6E4D6;
+    ;
+}
+main{
+    width: 1600px;
+    height: 4541px;
+    gap: 80px;
+    margin: 0 auto;
+
+}
+
+.skills{ 
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 324px;
+    width: 1280px;
+}
+.skills-container{
+    display: flex;
+    padding: 24px;
+    margin: 119px 20px;
+    height: 244px;
+    gap: 24px;
+   
+} 
+    
+.skill{
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
+   height: 244px;
+   width: 302px;
+   text-align: justify;
+
+}
+
+
+.future{
+    gap: 80px;
+    margin-top:  304px;
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 765px;
+    width: 1280px;
+}
+.new-container{
+    display: flex;
+    padding: 32px;
+    margin: 119px 20px;
+    height: 325px;
+    width: 1280px;
+   gap: 24px;
+ 
+}
+.tan-vir{
+   text-align: justify;
+   padding: 24px;
+    width: 410px;
+    height: 325px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color:rgba(84, 144, 245, 0.2);
+  
+}
+.tan-vir-p{
+    background-color:rgba(84, 144, 245, 0.2);
+}
+.btn-tan1{
+    width: 122px;
+    height: 41px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px;
+}
+.tan-vi{
+    text-align: justify;
+    padding: 24px;
+     width: 410px;
+     height: 325px;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     background-color: #C6E4D6;
+     
+ }
+ .btn-tan2{
+    width: 122px;
+    height: 41px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px;
+}
+ .tan-v{
+    text-align: justify;
+    padding: 24px;
+     width: 410px;
+     height: 325px;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     background-color: #F7EBCF;
+ }
+ .btn-tan3{
+    width: 122px;
+    height: 41px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px;
+}
+.future-description{
+    height: 256px;
+    background-color: white;
+    margin-top: 32px;
+    padding: 24px 48px;
+    
+}
+.fd-img{
+    width: 64px;
+    height: 64px;
+    background-color: white;
+}
+
+.fd-p{
+    background-color: white;
+}
+.fd-h3{
+    background-color: white;
+}
+
+
+.opinion{
+    height: 481px;
+    width: 1280px;
+    margin-top: 481px;
+    margin-left: 160px;
+    margin-right: 160px;
+    position: 160px ;
+}
+.questions{
+    background-color: white;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    /* gap: 32px; */
+    width: 1216px;
+    height: 72px;
+    
+ 
+    
+}
+.question-1{
+    margin: 24px;
+    background-color: #C6E4D6;
+}
+.question-2{
+    margin: 24px;
+    background-color: #C6E4D6;
+
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    border-style: 1px solid;
+    border-color: #0E0E0E;
+}
+ .opinion input{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+ }
