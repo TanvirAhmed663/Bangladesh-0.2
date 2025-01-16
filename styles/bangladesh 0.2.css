@@ -54,22 +54,29 @@ body{
 }
 .banner-content{
     position : 100px ;
+    width: 622px;
     height: 326px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin: 219px 0 0  ;
     margin-top: 117px;
     background-color: #C6E4D6;
-    background-color: ;
+    
 }
 .banner-p{
+    text-align: left;
     color: #0E0E0E;
     background-color: #C6E4D6;
+    text-align: left;
 }
 .banner-h1{
     font-size: 56px;
     width: 622px;
      background-color: #C6E4D6;
+     text-align: left;
 }
 .banner-btn{
+  
     height: 56px;
     width: 270px;
     background-color: #006A50;
@@ -78,7 +85,7 @@ body{
 }
 .banner-photo{
     background-color: #C6E4D6;
-    ;
+    
 }
 main{
     width: 1600px;
@@ -126,6 +133,7 @@ main{
 .new-container{
     display: flex;
     padding: 32px;
+    
     margin: 119px 20px;
     height: 325px;
     width: 1280px;
@@ -141,9 +149,7 @@ main{
     background-color:rgba(84, 144, 245, 0.2);
   
 }
-.tan-vir-p{
-    background-color:rgba(84, 144, 245, 0.2);
-}
+
 .btn-tan1{
     width: 122px;
     height: 41px;
@@ -186,6 +192,8 @@ main{
     height: 256px;
     background-color: white;
     margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
     padding: 24px 48px;
     
 }
@@ -197,23 +205,26 @@ main{
 
 .fd-p{
     background-color: white;
+    font-size: 16px;
 }
 .fd-h3{
     background-color: white;
 }
 
 
-.opinion{
+/* .opinion{
     height: 481px;
     width: 1280px;
     margin-top: 481px;
     margin-left: 160px;
     margin-right: 160px;
     position: 160px ;
-}
+} */
 .questions{
     background-color: white;
+    padding: 32px;
 }
+
 .question{
     display: flex;
     justify-content: space-between;
@@ -237,16 +248,263 @@ main{
 .option{
     display: flex;
     justify-content: space-between;
-    border-style: 1px solid;
+    border-style: 5px solid;
     border-color: #0E0E0E;
+    width: 1017px;
+    height: 92px;
 }
- .opinion input{
-    height: 64px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
+ 
+ /* Question css */
+
+ .opinion {
+   
+    margin-top: 481px;
+    margin-left: 160px;
+    margin-right: 160px;
+    position: 160px ;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Table */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
     width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+thead {
+    background-color: #d4f1d4;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+td {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Select Dropdown */
+select {
+    padding:14px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 152px;
+    height: 44px;
+    cursor: pointer;
+    background-color: #C6E4D6;
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.recent{
+    width: 1280px;
+    height: 1406px;
+   row-gap:  24px;
+}
+.recent-top{
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.recent-news{
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    width: 1280px;
+    height: 402px;
+    padding: 48px;
+    margin: 160px;
+    background-color: #FFFFFF;
+}
+.time{
+    display: flex;
+    gap: 12px;
+}
+.recent-btn{
+    background-color: #006A50;
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    color: white;
+}
+.donation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Donation Buttons */
+.donate{
+    height: 464px;
+    width: 1280px;
+    margin-top: 800px;
+    margin-left: 160px;
+    position: 160px;
+    row-gap: 80px;
+}
+.donate-head{
+    text-align: center;
+}
+
+.donate-opt {
+    display: flex;
+    justify-content: center;
+    width: 1071px;
+    height: 128px;
+    gap: 24px;
+    margin-bottom: 20px;
+    margin-left: 104.5px;
+    
+}
+
+.donate-btn {
+    padding: 15px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 264px;
+    height: 128px;
+    padding: 40px;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn22{
+    align-items: center;
+}
+
+
+.donate-btn:hover {
+    background-color: #d4f1d4;
+}
+
+/* Donation Input */
+.donation-input {
+    width: 1032px;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 124px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.donation-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Donate Now Button */
+.donate-now-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+    position: 564px 408px;
+    color: white;
+    width: 151px;
+    height: 56px;
+    background-color: #006A50;
     border: none;
- }
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 564px;
+}
+.subscribe{
+    height: 395px;
+    width: 1280px;
+    margin-left: 160px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+   
+}
+.subs{
+    text-align: center;
+}
+.subscribe-content{
+    height: 112px;
+    width: 750px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 265px;
+}
+
+input{
+    width: 600px;
+    height: 48px;
+    text-align: start;
+    border-radius: 8px;
+    
+}
+footer{
+    padding-top: 5px;
+   margin-top: 915px;
+    background-color: white;
+    width: 100%;
+    height: 226px;
+    gap: 24px;
+
+}
+.footer-description{
+    margin: 110px;
+   
+}
+.footer-h1{
+       text-align: center;
+       margin-bottom: 10px;
+}
+.footer-img{
+    text-align: center;
+    margin: 20px;
+    gap: 23px;
+}
